@@ -1,0 +1,175 @@
+.cf{
+    .contact_form {
+        width: 100%;
+        height: 250px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        filter: drop-shadow(8px 8px 10px grey);
+        .contact {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .baslik{
+              margin-Bottom: "25px";
+              h5{
+                  font-Weight: bold;
+                   font-Size:34px;
+                   color:#fff;
+              }
+          }
+          .btn{
+              Link{
+                  text-decoration: none;
+              }
+              .button{
+                  color: #fff;
+                  width: 190px;
+                  height: 30px;
+                  background-Color: transparent;
+                  border: 1px solid white;
+                  display: inline-flex;
+                  justify-Content: center;
+                  align-Items: center;
+                  transition: all 0.7s;
+                  font-Size: 13px;
+                  font-Weight: bold;
+                  &:hover{
+                      background-color: rgb(0, 0, 0);
+                      border: none;
+                  }
+              }
+          }
+        }
+      }
+      
+      .contact_desc{
+              display: flex;
+              gap: 50px;
+              margin: 70px;
+              justify-Content: center;
+              .desc1{
+                  display: flex;
+                  gap: 50px;
+                  ._desc1{
+                      border: 1px solid #dfd8d8;
+                      width: 260px;
+                      height: 180px;
+                      display: flex;
+                      justify-Content: center;
+                      align-Items: center;
+                      ._logo1{
+                          display: flex;
+                          gap: 30px;
+                          i{
+                              font-Size:35px;
+                          }
+                      }
+                      ._baslik1{
+                          margin-Bottom:20px;
+                          width: 55px;
+                          height: 2px;
+                          background: rgb(223, 50, 50);
+                      
+                      }
+                  }
+                }
+                .desc2{
+                  display: flex;
+                  gap: 50px;
+                  ._desc2{
+                      border: 1px solid #dfd8d8;
+                      width: 260px;
+                      height: 180px;
+                      display: flex;
+                      justify-Content: center;
+                      align-Items: center;
+                      ._logo2{
+                          display: flex;
+                          gap: 30px;
+                          i{
+                              font-Size:35px;
+                          }
+                      }
+                      ._baslik2{
+                          margin-Bottom:20px;
+                          width: 55px;
+                          height: 2px;
+                          background: rgb(223, 50, 50);
+                      
+                      }
+                  }
+                }
+              
+      }
+}
+
+@media (max-width: 1200px){
+    .cf{
+        .contact_form {
+            display: none;
+        }
+          .contact_desc{
+                  display: flex;
+                  justify-Content: center;
+                  align-items: center;
+                  flex-direction: column;
+                  width: auto;
+                  .desc1{
+                    display: flex;
+                    gap: 10px;
+                    ._desc1{
+                        border: 1px solid #dfd8d8;
+                        display: flex;
+                        width: 175px;
+                        justify-Content: center;
+                        align-Items: center;
+                        ._logo1{
+                            display: flex;
+                            gap: 10px;
+                            i{
+                                font-Size:35px;
+                            }
+                        }
+                        ._baslik1{
+                            margin-Bottom:20px;
+                            width: 50px;
+                            height: 2px;
+                            background: rgb(223, 50, 50);
+                        
+                        }
+                    }
+                  }
+                  .desc2{
+                    display: flex;
+                    gap:10px;
+                    ._desc2{
+                        border: 1px solid #dfd8d8;
+                        display: flex;
+                        width: 175px;
+                        justify-Content: center;
+                        align-Items: center;
+                        ._logo2{
+                            display: flex;
+                            gap: 10px;
+                            i{
+                                font-Size:35px;
+                            }
+                        }
+                        ._baslik2{
+                            margin-Bottom:20px;
+                            width: 50px;
+                            height: 2px;
+                            background: rgb(223, 50, 50);
+                        
+                        }
+                    }
+                  }
+                  
+          }
+    }
+  }

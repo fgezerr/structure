@@ -1,0 +1,24 @@
+.refs{
+    margin:"90px";
+    .ref{
+        display:flex;
+        justify-Content:space-around;
+        gap:50px;
+        margin-top: 50px;
+        img{
+            width:100px;
+            height:100px
+        }
+    }
+    hr{
+        border:1px solid black;
+        margin-Top:70px;
+        margin: 80px;
+    }
+}
+
+@media (max-width: 1200px){
+    .refs{
+        display: none;
+    }
+  }

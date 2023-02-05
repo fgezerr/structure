@@ -1,0 +1,42 @@
+.how_working{
+    margin-Left:80px;
+    margin-Right:80px;
+    .baslik{
+        display:flex;
+        justify-Content:center;
+        font-Weight:bold;
+        margin-Bottom:25px;
+        h5{
+        font-Weight:bold ;
+        font-Size:20px
+        }
+    }
+    .descs{
+        display:flex;
+        gap:20px;
+        div{
+            display:flex;
+            flex-Direction:column;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            .i{
+                font-size: 50px;
+                padding: 10px;
+            }
+            .p{
+                line-height: 25px;
+            }
+        }
+    }
+    hr{
+        border:1px solid black
+    }
+}
+
+
+@media (max-width: 1200px){
+    .how_working{
+        display: none;
+    }
+  }

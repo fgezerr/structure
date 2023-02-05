@@ -1,0 +1,74 @@
+{
+  "name": "structure",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "@react-icons/all-files": "^4.1.0",
+    "@sendgrid/mail": "^7.7.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.1.6",
+    "axios": "^1.2.0",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.2",
+    "fs": "npm:file-system@^2.2.2",
+    "google-map-react": "^2.2.0",
+    "mime": "^3.0.0",
+    "node": "^19.6.0",
+    "nodemailer": "^6.9.0",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-bootstrap-carousel": "^4.1.1",
+    "react-dom": "^18.2.0",
+    "react-elastic-carousel": "^0.11.5",
+    "react-facebook-login": "^4.1.1",
+    "react-floating-whatsapp": "^5.0.8",
+    "react-icons": "^4.7.1",
+    "react-image-gallery": "^1.2.11",
+    "react-image-magnify": "^2.7.4",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "react-slideshow-image": "^4.2.0",
+    "react-swipe": "^6.0.4",
+    "react-toastify": "^9.1.1",
+    "react-whatsapp-chat-widget": "^1.1.1",
+    "saas": "^1.0.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.6",
+    "swipe-js-iso": "^2.1.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-app-rewired": "^2.2.1",
+    "sass": "^1.57.1"
+  }
+}

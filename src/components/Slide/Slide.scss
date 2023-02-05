@@ -1,0 +1,259 @@
+.carousel_dsc{
+	margin-bottom: 200px;
+}
+
+
+@keyframes wheel {
+	to {
+		opacity: 0;
+		top: 60px;
+	}
+}
+
+@-webkit-keyframes wheel {
+	to {
+		opacity: 0;
+		top: 60px;
+	}
+}
+
+.scroll {
+	width: 50px;
+	height: 50px;
+	border: 2px solid #fff;
+    background-color:#fff;
+	border-radius: 50%;
+	position: relative;
+	animation: down 1s infinite;
+	-webkit-animation: down 2s infinite;
+	margin-top: 440px;
+	margin-left: 650px;
+	cursor: pointer;
+	&::before {
+		content: '';
+		position: absolute;
+		top: 15px;
+		left: 18px;
+		width: 10px;
+		height: 10px;
+		border-left: 1px solid #000;
+  		border-bottom: 1px solid #000;
+		transform: rotate(-45deg);
+	}
+}
+
+@keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(35px);
+	}
+	40% {
+		transform: translate(0);
+	}
+}
+
+@-webkit-keyframes down {
+	0% {
+		transform: translate(0);
+	}
+	20% {
+		transform: translateY(25px);
+	}
+	40% {
+		transform: translate(0);
+	}
+}
+
+@keyframes scroll {
+	0% {
+		height: 40px;
+	}
+	30% {
+		height: 70px;
+	}
+	60% {
+		height: 40px;
+	}
+}
+
+@-webkit-keyframes scroll {
+	0% {
+		height: 40px;
+	}
+	30% {
+		height: 70px;
+	}
+	60% {
+		height: 40px;
+	}
+}
+
+@-webkit-keyframes zoom {
+	from {
+	  -webkit-transform: scale(1, 1);
+	}
+	to {
+	  -webkit-transform: scale(1.5, 1.5);
+	}
+  }
+  
+  @keyframes zoom {
+	from {
+	  transform: scale(1, 1);
+	}
+	to {
+	  transform: scale(1.5, 1.5);
+	}
+  }
+  
+  .carousel-inner .carousel-item > img {
+	-webkit-animation: zoom 30s;
+	animation: zoom 30s;
+	height: 530px;
+  }
+
+  .carousel-inner .carousel-caption > h2 {
+	color: #fff;
+	font-weight: bold;
+  }
+
+  .carousel-inner .carousel-caption > p {
+		font-size: 50px;
+		font-weight: bold;
+  }
+
+ //RREESSPPOONNSSİİVVEE -------------------------------
+ //-------------------------------------------------------------------------------
+  @media (max-width:1200px){
+	.carousel_dsc{
+		margin-bottom: 100px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	
+	
+	@keyframes wheel {
+		to {
+			opacity: 0;
+			top: 60px;
+		}
+	}
+	
+	@-webkit-keyframes wheel {
+		to {
+			opacity: 0;
+			top: 60px;
+		}
+	}
+	
+	.scroll {
+		width: 50px;
+		height: 50px;
+		border: 2px solid #fff;
+		background-color:#fff;
+		border-radius: 50%;
+		position: relative;
+		animation: down 1s infinite;
+		-webkit-animation: down 2s infinite;
+		margin-top: 440px;
+		margin-left: 650px;
+		cursor: pointer;
+		&::before {
+			content: '';
+			position: absolute;
+			top: 15px;
+			left: 18px;
+			width: 10px;
+			height: 10px;
+			border-left: 1px solid #000;
+			  border-bottom: 1px solid #000;
+			transform: rotate(-45deg);
+		}
+	}
+	
+	@keyframes down {
+		0% {
+			transform: translate(0);
+		}
+		20% {
+			transform: translateY(35px);
+		}
+		40% {
+			transform: translate(0);
+		}
+	}
+	
+	@-webkit-keyframes down {
+		0% {
+			transform: translate(0);
+		}
+		20% {
+			transform: translateY(25px);
+		}
+		40% {
+			transform: translate(0);
+		}
+	}
+	
+	@keyframes scroll {
+		0% {
+			height: 40px;
+		}
+		30% {
+			height: 70px;
+		}
+		60% {
+			height: 40px;
+		}
+	}
+	
+	@-webkit-keyframes scroll {
+		0% {
+			height: 40px;
+		}
+		30% {
+			height: 70px;
+		}
+		60% {
+			height: 40px;
+		}
+	}
+	
+	@-webkit-keyframes zoom {
+		from {
+		  -webkit-transform: scale(1, 1);
+		}
+		to {
+		  -webkit-transform: scale(1.5, 1.5);
+		}
+	  }
+	  
+	  @keyframes zoom {
+		from {
+		  transform: scale(1, 1);
+		}
+		to {
+		  transform: scale(1.5, 1.5);
+		}
+	  }
+	  
+	  .carousel-inner .carousel-item > img {
+		-webkit-animation: zoom 30s;
+		animation: zoom 30s;
+		height: 530px;
+	  }
+	
+	  .carousel-inner .carousel-caption > h2 {
+		color: #fff;
+		font-weight: bold;
+	  }
+	
+	  .carousel-inner .carousel-caption > p {
+			font-size: 50px;
+			font-weight: bold;
+	  }
+  }
